@@ -1,0 +1,138 @@
+/*
+Theme Name: Outhear Klothing
+Description: Thème Outhear Klothing
+*/
+
+@import url("base.css");
+
+/**************************************
+Structure
+**************************************/
+body {
+	font-family: Helvetica, sans-serif;
+	text-align: left;
+    background: url('images/bg.jpg') center top;
+    font-size: 17px;
+    margin-bottom: 100px;
+}
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#header {
+}
+
+#menu {
+	height: 50px;
+}
+
+#page {
+    width: 697px;
+    margin-left: 330px;
+	position: relative;
+}
+
+#footer {
+}
+
+#sidebar {
+    margin: 50px 0 0 30px;
+    float: left;
+    width: 278px;
+}
+
+/******************************
+	Header
+******************************/
+#logo {
+    display: block;
+    float: left;
+    margin: 20px 0 0 50px;
+}
+
+
+/******************************
+	Menu
+******************************/
+#menu {
+    float: right;
+    margin-top: 50px;
+    height: 47px;
+    width: 640px;
+    background: url('images/menu-bg.png') repeat-x top right;
+    padding-left: 20px;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu li + li {
+    margin-left: 50px;
+}
+
+#menu li a {
+    color: #333;
+    line-height: 47px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: #82999e;
+}
+
+/******************************
+	Social sidebar
+******************************/
+#sidebar-top {
+    height: 140px;
+    background: url('images/social-sidebar.png') no-repeat top left;
+}
+
+#sidebar-facebook {
+    display: block;
+    height: 120px;
+    background: url('images/social-sidebar.png') no-repeat left -140px; 
+}
+
+#sidebar-twitter {
+    display: block;
+    height: 110px;
+    background: url('images/social-sidebar.png') no-repeat left -260px; 
+}
+
+#sidebar-bottom {
+    height: 124px;
+    background: url('images/social-sidebar.png') no-repeat left bottom; 
+}
+
+/******************************
+	Page
+******************************/
+#page-top {
+    height: 90px;
+    background: url('images/bg-blue.png') no-repeat top left;
+}
+
+#page-content {
+    background: url('images/bg-blue-repeat.png') repeat-y top left;
+    padding: 20px 20px 20px 30px;
+}
+
+#page-bottom {
+    height: 90px;
+    background: url('images/bg-blue.png') no-repeat bottom left;
+}
+
+
+/******************************
+	Cart sidebar
+******************************/
+#widgetshoppingcart {
+	width: 300px;
+	float: right;
+	border: 1px solid gray;
+}
