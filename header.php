@@ -24,7 +24,7 @@
     
     <div id="header">
         <ul id="menu">
-        	<?php wp_list_pages('title_li=' ); ?>
+        	<?php wp_list_pages('title_li=&depth=1'); ?>
         </ul>
         <a id="logo" href="/"><img src="/wp-content/themes/outhear/images/logo.png"/></a>
         <div style="clear:both"></div>
@@ -32,6 +32,5 @@
     
     <?php get_sidebar(); ?>
     
-    <?php // echo wpsc_shopping_cart(); ?>
     <div id="page">
         <div id="page-top"></div>

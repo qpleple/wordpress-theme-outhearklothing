@@ -45,7 +45,11 @@ body {
 }
 
 h1, h2, h3 {
-    margin: 20px 0 40px 0;
+    margin: 40px 0 20px 0;
+}
+
+a {
+    color: #066;
 }
 
 /******************************
@@ -138,10 +142,64 @@ h1, h2, h3 {
 
 
 /******************************
-	Cart sidebar
+	Online shop
 ******************************/
-#widgetshoppingcart {
-	width: 300px;
-	float: right;
-	border: 1px solid gray;
+/* Button "Add to cart" */
+.wpsc_buy_button {
+    background: url('images/add-to-cart-btn.png') no-repeat scroll top left;
+    width: 308px;
+    height: 137px;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+}
+
+.wpsc_buy_button:hover {
+    background-position: bottom;
+}
+
+/* Button "Purchase" */
+.make_purchase {
+    background: url('images/wpsc_purchase_button.png') no-repeat scroll top left;
+    width: 309px;
+    height: 138px;
+}
+
+.make_purchase:hover {
+    background-position: bottom;
+}
+
+/* Titles of products */
+.wpsc_product_title {
+    background: #ccc;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.productcol {
+    width: 430px;
+}
+
+.wpsc_description {
+    width: 430px;
+}
+
+#go-to-checkout {
+    display: block;
+    float: right;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background: #ccc;
+    text-align: center;
+}
+
+#go-to-checkout:hover {
+    background: #ddd;
+}
+
+#go-to-checkout.go-to-checkout-top {
+    margin-top: -100px;
 }
