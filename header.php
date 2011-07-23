@@ -35,4 +35,3 @@
     <?php // echo wpsc_shopping_cart(); ?>
     <div id="page">
         <div id="page-top"></div>
-        <div id="page-content">

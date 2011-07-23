@@ -1,6 +1,3 @@
-    <div style="clear:both"></div>
-
-    </div>
     <div id="page-bottom"></div>
 </div>
 
