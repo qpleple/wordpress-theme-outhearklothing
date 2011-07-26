@@ -140,6 +140,17 @@ a {
     padding: 50px 100px;
 }
 
+/******************************
+	Post
+******************************/
+h2.post-title {
+    margin-bottom: 5px;
+}
+
+div.post-metadata {
+    margin-bottom: 10px;
+    font-style: italic;
+}
 
 /******************************
 	Online shop
@@ -160,15 +171,17 @@ a {
 
 /* Button "Purchase" */
 .make_purchase {
-    background: url('images/wpsc_purchase_button.png') no-repeat scroll top left;
+    background: url('images/purchase-btn.png') no-repeat scroll top left;
     width: 309px;
     height: 138px;
+    border: none;
 }
-
 .make_purchase:hover {
     background-position: bottom;
 }
-
+.wpsc_make_purchase {
+    margin-top: 40px;
+}
 /* Titles of products */
 .wpsc_product_title {
     background: #ccc;
@@ -202,4 +215,37 @@ a {
 
 #go-to-checkout.go-to-checkout-top {
     margin-top: -100px;
+}
+
+#checkout_page_container {
+    clear: none !important;
+}
+
+.checkout_cart {
+    background: #ccc;
+    padding: 20px;
+}
+
+.total_price {
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}
+
+#wpsc_shopping_cart_container {
+    margin-top: 20px;
+    line-height: 3em;
+}
+
+.wpsc_billing_forms h4 {
+    font-weight: bold;
+}
+
+#fancy_notification_content a {
+    background: #ccc;
+    padding: 0 10px;
+}
+
+#fancy_notification_content a:hover {
+    background: #ddd;
 }

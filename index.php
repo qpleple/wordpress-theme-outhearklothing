@@ -3,8 +3,10 @@
 <div id="page-content">
     <?php while(have_posts()) : the_post(); ?>
         <div clas="post">
-            <h1><?php the_title(); ?></h1>
-        	<?php the_content(); ?>
+    		<h2 class="post-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+    		<div class="post-metadata"><?php the_author() ?>, <?php the_time('F jS, Y') ?></div>
+    		<?php the_content(); ?>
+        	<div style="clear:both"></div>
         </div>
     <?php endwhile; ?>
     <div style="clear:both"></div>
