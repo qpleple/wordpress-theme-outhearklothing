@@ -103,7 +103,7 @@ a {
 
 #sidebar-facebook {
     display: block;
-    height: 120px;
+    height: 122px;
     background: url('images/social-sidebar.png') no-repeat left -140px; 
 }
 
@@ -114,11 +114,11 @@ a {
 #sidebar-twitter {
     display: block;
     height: 110px;
-    background: url('images/social-sidebar.png') no-repeat left -260px; 
+    background: url('images/social-sidebar.png') no-repeat left -264px; 
 }
 
 #sidebar-twitter:hover {
-    background: url('images/social-sidebar.png') no-repeat right -260px; 
+    background: url('images/social-sidebar.png') no-repeat right -264px; 
 }
 
 #sidebar-bottom {
